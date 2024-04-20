@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Meu Portfólio</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><button onclick="mostrarProjeto('projeto1')">Projeto 1</button></li>
+        <li><button onclick="mostrarProjeto('projeto2')">Projeto 2</button></li>
+        <li><button onclick="mostrarProjeto('projeto3')">Projeto 3</button></li>
+        <li><button onclick="mostrarProjeto('projeto4')">Projeto 4</button></li>
+    </ul>
+</nav>
+
+<section id="projeto1" class="projeto">
+    <h2>Projeto 1 - Receitas de Cozinha</h2>
+    <button onclick="carregarReceitas()">Carregar Receitas</button>
+    <label for="idioma">Idioma:</label>
+    <select id="idioma">
+        <option value="pt" selected>Português</option>
+        <option value="en">Inglês</option>
+        <option value="es">Espanhol</option>
+        <option value="fr">Francês</option>
+    </select>
+
+    <label for="pesquisa">Pesquisar:</label>
+    <input type="text" id="pesquisa" placeholder="Digite o nome da receita">
+    <button onclick="pesquisarReceita()">Pesquisar</button>
+    <div id="receitas"></div>
+</section>
+
+<section id="projeto2" class="projeto">
+    <h2>Projeto 2 - Sugestão de Músicas</h2>
+    <label for="artista">Digite o nome do artista:</label>
+    <input type="text" id="artista" placeholder="Digite o nome do artista">
+    <button onclick="buscarMusicas()">Buscar Músicas</button>
+    <div id="musicas"></div>
+</section>
+
+
+<section id="projeto3" class="projeto">
+    <h2>Projeto 3 - Rastreador de Hábitos</h2>
+    <div id="habit-form">
+        <input type="text" id="habit-input" placeholder="Digite um hábito">
+        <button onclick="adicionarHabito()">Adicionar</button>
+    </div>
+    <ul id="habit-list"></ul>
+</section>
+
+
+<section id="projeto4" class="projeto">
+    <h2>Projeto 4 - Chatbot com GPT</h2>
+    <div class="chat-container">
+        <div class="chat-message user-message">
+            <p>Olá! Como posso ajudar você hoje?</p>
+        </div>
+        <div class="chat-message bot-message">
+            <p>Carregando...</p>
+        </div>
+        <input type="text" id="user-input" placeholder="Digite sua mensagem">
+        <button onclick="enviarMensagem()">Enviar</button>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Meu Portfólio</p>
+</footer>
+
+<script src="scripts.js"></script>
+
+</body>
+</html>
