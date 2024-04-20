@@ -76,7 +76,7 @@ function buscarMusicas() {
         return;
     }
 
-    const apiKey = 'YOUR_LAST_FM_API_KEY';
+    const apiKey = 'ainda vou por a chave api';
     const url = `http://ws.audioscrobbler.com/2.0/?method=artist.gettoptracks&artist=${encodeURIComponent(nomeArtista)}&api_key=${apiKey}&format=json&limit=5`;
 
     fetch(url)
@@ -139,8 +139,8 @@ function enviarMensagem() {
 }
 
 function fetchMessage(userInput) {
-    // Substitua 'YOUR_API_KEY' pela sua chave de API do OpenAI
-    var apiKey = 'YOUR_API_KEY';
+
+    var apiKey = 'ainda vou por a chave API OPENAI';
     var apiUrl = 'https://api.openai.com/v1/completions';
 
     fetch(apiUrl, {
