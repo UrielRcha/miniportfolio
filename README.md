@@ -1,6 +1,6 @@
 Portfólio Uriel de Pinho Rocha
 
-Estou criando este portfólio para manutenção e avaliações futuras. Além disso, estou buscando por algumas APIs que possam ser úteis.
+Estou criando este portfólio para manutenção e avaliações futuras. Além disso, estou buscando por em prática algumas APIs que possam ser úteis.
 
 O primeiro projeto trata de uma API de pesquisa de receitas, fácil de ser utilizado (preciso fazer atualizações).
 
