@@ -10,4 +10,4 @@ O terceiro projeto trata de um app rastreador de hábitos, onde o usuário poder
 
 O quarto e último projeto trata de um CHATBOT com tecnologia GPT (preciso fazer atualizações).
 
-Ainda sou um mero iniciante nisso tudo, então, podem entrar em contato comigo no instagram @Dev.Uri , no linkedin https://www.linkedin.com/in/uriel-rocha-521310241/ , ou no email urielrocha32@hotmail.com .
+Ainda sou um mero iniciante nisso tudo, então, podem entrar em contato comigo no instagram @UrielRcha , no linkedin https://www.linkedin.com/in/uriel-rocha-521310241/ , ou no email urielrocha32@hotmail.com .
